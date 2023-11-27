@@ -238,6 +238,11 @@ footer {
         margin: auto;
     }
   
+    main {
+        padding: 0;
+        margin: 10px;
+    }
+
     .contenedorFotos {
 
         display: grid;
