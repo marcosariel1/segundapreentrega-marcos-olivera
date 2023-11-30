@@ -1,0 +1,35 @@
+/*MAIN*/
+@mixin main {
+    margin: 35px;
+    padding: 35px;
+}
+
+main {
+
+    @include main;
+    border-bottom: grey double 2px;
+    margin-bottom: 200px;
+}
+
+p {
+    font-size: larger;
+}
+
+.bio {
+    padding: 30px;
+}
+
+.bioBio {
+    margin: 30px 30px 0px 30px;
+}
+
+/*cajanoticias*/
+
+.cajaNoticias {
+    margin: 40px 0px;
+    padding: 20px;
+}
+
+.dirección {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

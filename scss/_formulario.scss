@@ -1,0 +1,24 @@
+/*formulario*/
+form {
+    margin: 50px;
+}
+
+label {
+    display: block;
+}
+
+input [type="text"],
+textarea {
+    width: 500px;
+}
+
+.botonform {
+    display: block;
+    cursor: pointer;
+    padding: 5px;
+    margin: 5px;
+}
+
+.casillaForm {
+    width: 300px;
+}

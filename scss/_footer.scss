@@ -1,0 +1,30 @@
+/*FOOTER*/
+.listaRedes {
+    font-size: small;
+    margin: 1px;
+
+    &:hover {
+        color: $color-rojo-hover;
+    }
+}
+
+footer {
+    /*margin: 10px 10px 10px 400px;
+    text-align: right;*/
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin-bottom: 20px;
+}
+
+.siguenospie {
+    text-align: initial;
+    margin: 20px;
+}
+
+.pie {
+    padding-top: 100px;
+    text-align: center;
+    font-size: medium;
+}

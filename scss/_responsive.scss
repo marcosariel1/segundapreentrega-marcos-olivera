@@ -1,0 +1,90 @@
+/*RESPONSIVE*/
+@mixin grid-centroeje-horiz {
+    display: grid;
+    justify-items: center;
+}
+
+/*vista tablet*/
+
+@media (max-width: 1023px) {
+    nav ul li {
+        margin: auto;
+    }
+
+    main {
+        padding: 0;
+        margin: 10px;
+    }
+
+    .contenedorFotos,
+    .contenedorVideos {
+        @include grid-centroeje-horiz;
+
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+    .fotos {
+        min-height: 100%;
+    }
+
+    /*formulario*/
+
+
+    textarea {
+        width: 100%;
+    }
+
+    footer {
+        padding-top: 100px;
+    }
+}
+
+/*vista móvil*/
+@media (max-width: 768px) {
+    img {
+        width: 100%;
+    }
+
+    .contenedorFotos {
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
+    .fotos {
+        object-fit: contain;
+    }
+
+    .contenedorVideos {
+        @include grid-centroeje-horiz;
+        grid-template-columns: 1fr;
+
+        justify-content: center;
+    }
+
+    main {
+        padding: 0;
+        margin: 10px;
+    }
+
+    .bio {
+        padding: 0;
+    }
+
+    /*formulario*/
+
+    form {
+        margin: 10px;
+    }
+
+    textarea,
+    .casillaForm {
+        width: 100%;
+    }
+
+    /*footer*/
+
+    .redesMovil {
+        margin: 5px;
+    }
+}

@@ -1,0 +1,41 @@
+/*galería*/
+.fotos {
+    max-height: 100%;
+    max-width: 330px;
+}
+
+.contenedorFotos {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: black;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+
+
+.contenedorVideos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.videos {
+    max-height: 200px;
+    max-width: 250px;
+    gap: 10px;
+}
+
+.tituloVideo {
+    margin: 1px 50px;
+}
+
+/*iframe {
+  
+      margin: 50px;
+  }*/
